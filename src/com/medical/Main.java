@@ -3,6 +3,7 @@ package com.medical;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	Home obj=new Home();
+	obj.setVisible(true);
     }
 }
