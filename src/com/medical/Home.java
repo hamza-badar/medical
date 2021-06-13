@@ -84,6 +84,8 @@ public class Home extends JFrame implements ActionListener
         switch(e.getActionCommand())
         {
             case "Add Medicine":
+                AddMedicine obj=new AddMedicine();
+                obj.setVisible(true);
                 break;
             case "Delete Medicine" :
                 break;
